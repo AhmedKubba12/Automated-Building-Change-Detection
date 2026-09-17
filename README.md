@@ -2,7 +2,7 @@
 
 Deep learning model for detecting changes in building footprints across Dubai using multi-temporal satellite imagery. The model compares imagery from 2019 and 2023 and produces per-pixel change masks that are then georeferenced for use in GIS software.
 
-This repository holds the code, notebooks, and prediction outputs for the project. The trained model weights and the full training dataset are large binary files and are not tracked here (see [Large files](#large-files) below).
+This repository holds the code, notebooks, and prediction outputs for the project. The trained model weights and the full training dataset are available on request.
 
 ## Overview
 
@@ -65,15 +65,6 @@ The dataset tiles are not included in this repository because of their size. Poi
 ## Outputs
 
 Inference produces one change mask per tile. These are saved as PNG tiles in `Source Code/Model_Predictions_Tiles/`, and the merged, georeferenced result is written to `Model Predictions Shapefile/` as a shapefile. Open `ModelPred.shp` in ArcGIS or QGIS to view the detected changes over a basemap.
-
-## Large files
-
-To keep the repository a reasonable size and stay within GitHub's per-file limit, two categories of files are excluded from version control:
-
-- Model weights (`.pth`). The fine-tuned Dubai checkpoint and the pretrained LEVIR-CD checkpoint are each around 200 MB, which is above GitHub's 100 MB limit for a normal repository. Keep them alongside the notebooks locally, or host them separately and link to them.
-- The satellite dataset tiles used for training and validation.
-
-These paths are listed in `.gitignore`. If you need to share the weights or data through GitHub, Git LFS is the usual way to do it.
 
 ## Acknowledgements
 
