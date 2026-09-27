@@ -60,7 +60,7 @@ A CUDA-capable GPU is recommended for training. Inference runs on CPU but is slo
 
 Training data is organised as paired 2019 and 2023 tiles, split into labelled train, validation, and test sets, with a separate pool of unlabelled tiles used by the semi-supervised branch. The labels are binary change masks.
 
-The dataset tiles are not included in this repository because of their size. Point the data path cells in the training notebook at your local copy of the tiles.
+The dataset tiles are not included in this repository because of their size and data confidentiality. Point the data path cells in the training notebook at your local copy of the tiles.
 
 ## Outputs
 
