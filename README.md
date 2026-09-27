@@ -2,7 +2,7 @@
 
 Deep learning model for detecting changes in building footprints across Dubai using multi-temporal satellite imagery. The model compares imagery from 2019 and 2023 and produces per-pixel change masks that are then georeferenced for use in GIS software.
 
-This repository holds the code, notebooks, and prediction outputs for the project. The trained model weights and the full training dataset are available on request.
+This repository holds the code, notebooks, and prediction outputs for the project. The trained model weights and the full training dataset are confidential.
 
 ## Overview
 
